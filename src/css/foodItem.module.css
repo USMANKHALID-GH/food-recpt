@@ -1,0 +1,43 @@
+.itemContainer{
+    box-shadow: 0 4px 10px rgb(0,0,0,.5);
+    width: 300px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: "Arial Rounded MT Bold", "Helvetica Neue";
+}
+
+.image{
+   max-width: 100%;
+   height: auto;
+}
+
+.title
+{
+text-align: center;
+}
+.titleContent{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #393e46;
+    font-family: "Helvetica Neue", "Helvetica";
+}
+.buttom{
+
+    width: 100%;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #29bb89;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+
+.buttom:hover{
+    background: #0e4d37;
+
+}
